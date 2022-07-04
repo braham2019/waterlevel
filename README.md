@@ -5,10 +5,10 @@ My first ever project based on Arduino code. I recently installed two 10000 lite
 ![IMG_1708](https://user-images.githubusercontent.com/56874881/177165828-56f43606-48e3-48c7-8807-41c4a0d4ec34.jpg)
 
 ## Hardware components used:
-- Adafruit ESP32 Huzzah (https://www.adafruit.com/product/3591)
-- Adafruit Assembled Terminal Block Breakout FeatherWing (https://www.adafruit.com/product/2926) // because I'm bad at soldering directly to a proto board.
-- A02YYUW waterproof distance meter (https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311p)
-- Grove 16x2 LCD white on blue (https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
+- Adafruit [ESP32 Huzzah](https://www.adafruit.com/product/3591)
+- Adafruit [Assembled Terminal Block Breakout FeatherWing](https://www.adafruit.com/product/2926) // because I'm bad at soldering directly to a proto board.
+- [A02YYUW](https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311p) waterproof distance meter 
+- [Grove 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/) white on blue 
 - Plastic box to mount LCD and ESP
 
 ## Software components (Arduino libraries) used:
