@@ -4,7 +4,7 @@ My first ever project based on Arduino code. I recently installed two 10000 lite
 
 ## Hardware components used:
 - Adafruit ESP32 Huzzah (https://www.adafruit.com/product/3591)
-- Adafruit Assembled Terminal Block Breakout FeatherWing (https://www.adafruit.com/product/2926)
+- Adafruit Assembled Terminal Block Breakout FeatherWing (https://www.adafruit.com/product/2926) // because I'm bad at soldering directly to a proto board.
 - A02YYUW waterproof distance meter (https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311p)
 - Grove 16x2 LCD white on blue (https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
 - Plastic box to mount LCD and ESP
@@ -23,6 +23,12 @@ The code is pretty self-explanatory (I think): first Wifi is enabled then the JS
 - The JSON webserver is running on port 80, the OTA server on port 81.
 - The LCD screen shows the reading in percentage and displays a progress bar.
 - The JSON webserver shows percentage and the distance to the water. The percentage information is gathered by Home Assistant through a REST API call sensor so I have historical metrics available. 
+```
+{
+  "data": 87,
+  "distance": 313
+}
+```
 
 ### Home Assistant configuration:
 ```
@@ -34,4 +40,4 @@ sensor:
     unit_of_measurement: "%"
     scan_interval: 60
 ```
-- I also display the information on my Dakboard. As Dakboard can only gather external https resources, I am using a Traefik reverse proxy to allow access to the JSON server.
+- I also display the information on my Dakboard. As Dakboard can only gather external https resources, I am using a Traefik reverse proxy, protected by Cloudflare and a Cloudflare Tunnel to allow access to the JSON server (config out of scope).
