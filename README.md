@@ -45,5 +45,8 @@ sensor:
 ```
 - I also display the information on my Dakboard. As Dakboard can only talk to external https resources, I am using a Traefik reverse proxy, protected by Cloudflare and a Cloudflare Tunnel to allow access to the JSON server (config out of scope).
 
+## View of the hardware
+
+Cable between sensor and ESP32 not shown
 ![IMG_1668](https://user-images.githubusercontent.com/56874881/177165881-a1fb92fc-59b1-4c0a-938a-ffb175b15ed4.jpg)
 
