@@ -2,6 +2,8 @@
 
 My first ever project based on Arduino code. I recently installed two 10000 liter rainwater tanks, and I wanted to visualize how much water is left in the tank in real time.  The information needed to be visual on a small LCD screen inside my garage and also on a web page, where it could be scraped or viewed. I also wanted to be able to update the Arduino code using a web browser.
 
+![IMG_1708](https://user-images.githubusercontent.com/56874881/177165828-56f43606-48e3-48c7-8807-41c4a0d4ec34.jpg)
+
 ## Hardware components used:
 - Adafruit ESP32 Huzzah (https://www.adafruit.com/product/3591)
 - Adafruit Assembled Terminal Block Breakout FeatherWing (https://www.adafruit.com/product/2926) // because I'm bad at soldering directly to a proto board.
@@ -40,4 +42,7 @@ sensor:
     unit_of_measurement: "%"
     scan_interval: 60
 ```
-- I also display the information on my Dakboard. As Dakboard can only gather external https resources, I am using a Traefik reverse proxy, protected by Cloudflare and a Cloudflare Tunnel to allow access to the JSON server (config out of scope).
+- I also display the information on my Dakboard. As Dakboard can only talk to external https resources, I am using a Traefik reverse proxy, protected by Cloudflare and a Cloudflare Tunnel to allow access to the JSON server (config out of scope).
+
+![IMG_1668](https://user-images.githubusercontent.com/56874881/177165881-a1fb92fc-59b1-4c0a-938a-ffb175b15ed4.jpg)
+
