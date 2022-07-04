@@ -101,6 +101,7 @@ void updateLCD() {
       int percent = (CurPercentage + 1) / factor;
       int number = percent / 5;
       int remainder = percent % 5;
+      // show current volume and percentage on LCD
       if (number > 0) {
         for (int j = 0; j < number; j++) {
           lcd.setCursor(j, lineToPrintOn);
@@ -115,7 +116,6 @@ void updateLCD() {
           lcd.write((byte)0x00);
         }
       }
-      // show current volume and percentage on LCD
       lcd.setCursor(0, 0);
       lcd.print("                ");
       lcd.setCursor(1, 0);
