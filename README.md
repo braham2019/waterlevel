@@ -1,13 +1,13 @@
 # Waterlevel
 
-My first ever project based on Arduino code. I recently installed two 10000 liter rainwater tanks, and I wanted to visualize how much water is left in the tank in real time.  The information needed to be visual on a small LCD screen inside my garage and also on a web page, where it could be scraped or viewed. I also wanted to be able to update the Arduino code using a web browser.
+My first ever project based on Arduino code. I recently installed two 10000 liter rainwater tanks, and I wanted to visualize how much water is left in the tanks in real time.  The information needed to be visual on a small LCD screen inside my garage and also on a web page, where it could be scraped or viewed. I also wanted to be able to update the Arduino code using a web browser.
 
 ![IMG_1708](https://user-images.githubusercontent.com/56874881/177165828-56f43606-48e3-48c7-8807-41c4a0d4ec34.jpg)
 
 ## Hardware components used:
 - Adafruit [ESP32 Huzzah](https://www.adafruit.com/product/3591)
 - Adafruit [Assembled Terminal Block Breakout FeatherWing](https://www.adafruit.com/product/2926) // because I'm bad at soldering directly to a proto board.
-- [A02YYUW](https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311p) waterproof distance meter 
+- [A02YYUW](https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311) waterproof distance meter 
 - [Grove 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/) white on blue 
 - Plastic box to mount LCD and ESP
 
