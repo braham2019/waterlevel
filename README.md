@@ -1,3 +1,4 @@
+![IMG_1668](https://user-images.githubusercontent.com/56874881/177161099-1738cd71-b9c6-4f0d-9509-f5b5ccc28ed7.jpg)
 # Waterlevel
 
 My first ever project based on Arduino code. I recently installed two 10000 liter rainwater tanks, and I wanted to visualize how much water is left in the tank in real time.  The information needed to be visual on a small LCD screen inside my garage (next to the watertanks) and also on a web page, where it could be scraped or viewed. I also wanted to be able to update code using a web browser.
