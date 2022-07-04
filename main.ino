@@ -1,6 +1,5 @@
 #include <rgb_lcd.h>
 #include <SoftwareSerial.h>
-//#include <SPI.h>
 #include <ArduinoJson.h>
 #include <WiFi.h>
 #include <WebServer.h>
