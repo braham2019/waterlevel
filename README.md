@@ -23,6 +23,7 @@ The code is pretty self-explanatory (I think): first Wifi is enabled then the JS
 ## Additional info:
 - I gave the ESP32 a static IP address through DHCP reservation.
 - The JSON webserver is running on port 80, the OTA server on port 81.
+- The LCD screen is connected to SDA & SCL ports.
 - The LCD screen shows the reading in percentage and displays a progress bar.
 - The JSON webserver shows percentage and the distance to the water. The percentage information is gathered by Home Assistant through a REST API call sensor so I have historical metrics available. 
 ```
